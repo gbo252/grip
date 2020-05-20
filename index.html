@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./style.css" type="text/css" rel="stylesheet" />
+    <title>Login Screen</title>
+  </head>
+  <body>
+    <div id="page-container">
+      <div id="form-container" class="container">
+        <div id="form-content" class="content">
+          <div class="image-container">
+            <img class="image" src="./images/cogs.png" />
+          </div>
+          <p class="paragraph">
+            Welcome to The AI Summit London. Please login with your credentials
+            below.
+          </p>
+          <form action="/" method="POST">
+            <input
+              class="form-input"
+              type="email"
+              name="email"
+              placeholder="Enter Your E-mail"
+            />
+            <input
+              class="form-input"
+              type="text"
+              name="id"
+              placeholder="Type Badge ID Here"
+            />
+            <input
+              id="form-submit"
+              class="form-button"
+              type="submit"
+              value="Login"
+            />
+            <a id="forgot-pw" class="form-button" href="/"
+              >Don't know your Password?
+              <span id="underline">Press here!</span></a
+            >
+          </form>
+        </div>
+      </div>
+      <div id="laptop-container" class="container">
+        <div id="laptop-content" class="content">
+          <div class="image-container">
+            <img class="image" src="./images/laptop.png" />
+          </div>
+          <div>
+            <p id="laptop-header">
+              Network better at events with personalised meeting
+              recommendations. Arrange meetings in one click.
+            </p>
+            <p class="paragraph">
+              Log in - 70% of those who did said they made a connection they
+              would not have made otherwise
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
